@@ -1,0 +1,228 @@
+{
+  "builtBy": "meteor/17",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/home/leo/docs/playground/mininf/packages/nfcore/package.js": "7bf3226cfcddd9851608563b906c77c0bf5bd852",
+        "/home/leo/docs/playground/mininf/packages/nfcore/nfcore.js": "1882946a1aeaa1d69f8911ec179e319d0b1c0889",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/globals.js": "0c96d8b86a994b78ad0d64fa6e82b383d313e444",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/schemas/accounts.js": "7b671976472f246c8ddb8a6ae52352412eb0368b",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/schemas/questions.js": "16677517900fa49a45bc6b9893b4900aa15e7e63",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/collections/collections.js": "91424dde0264373b5363b70e69ad83fc4d11f69f"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/home/leo/docs/playground/mininf/packages/nfcore/package.js": "7bf3226cfcddd9851608563b906c77c0bf5bd852",
+        "/home/leo/docs/playground/mininf/packages/nfcore/nfcore.js": "1882946a1aeaa1d69f8911ec179e319d0b1c0889",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/globals.js": "0c96d8b86a994b78ad0d64fa6e82b383d313e444",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/schemas/accounts.js": "7b671976472f246c8ddb8a6ae52352412eb0368b",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/schemas/questions.js": "16677517900fa49a45bc6b9893b4900aa15e7e63",
+        "/home/leo/docs/playground/mininf/packages/nfcore/common/collections/collections.js": "91424dde0264373b5363b70e69ad83fc4d11f69f"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/home/leo/docs/playground/mininf/packages/nfcore/package.js": "7bf3226cfcddd9851608563b906c77c0bf5bd852"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "leo:nfcore": {
+      "kind": "local",
+      "sourceRoot": "/home/leo/docs/playground/mininf/packages/nfcore"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.9"
+    },
+    "standard-minifiers": {
+      "kind": "versioned",
+      "version": "1.0.1"
+    },
+    "mobile-experience": {
+      "kind": "versioned",
+      "version": "1.0.1"
+    },
+    "meteor-base": {
+      "kind": "versioned",
+      "version": "1.0.1"
+    },
+    "mongo": {
+      "kind": "versioned",
+      "version": "1.1.2"
+    },
+    "ecmascript": {
+      "kind": "versioned",
+      "version": "0.1.5"
+    },
+    "es5-shim": {
+      "kind": "versioned",
+      "version": "4.1.13"
+    },
+    "blaze-html-templates": {
+      "kind": "versioned",
+      "version": "1.0.1"
+    },
+    "session": {
+      "kind": "versioned",
+      "version": "1.1.1"
+    },
+    "jquery": {
+      "kind": "versioned",
+      "version": "1.11.4"
+    },
+    "tracker": {
+      "kind": "versioned",
+      "version": "1.0.9"
+    },
+    "underscore": {
+      "kind": "versioned",
+      "version": "1.0.4"
+    },
+    "logging": {
+      "kind": "versioned",
+      "version": "1.0.8"
+    },
+    "reload": {
+      "kind": "versioned",
+      "version": "1.1.4"
+    },
+    "random": {
+      "kind": "versioned",
+      "version": "1.0.4"
+    },
+    "ejson": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    },
+    "check": {
+      "kind": "versioned",
+      "version": "1.0.6"
+    },
+    "less": {
+      "kind": "versioned",
+      "version": "2.5.0_3"
+    },
+    "http": {
+      "kind": "versioned",
+      "version": "1.1.1"
+    },
+    "reactive-var": {
+      "kind": "versioned",
+      "version": "1.0.6"
+    },
+    "email": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    },
+    "browser-policy": {
+      "kind": "versioned",
+      "version": "1.0.5"
+    },
+    "service-configuration": {
+      "kind": "versioned",
+      "version": "1.0.5"
+    },
+    "amplify": {
+      "kind": "versioned",
+      "version": "1.0.0"
+    },
+    "oauth-encryption": {
+      "kind": "versioned",
+      "version": "1.0.6"
+    },
+    "accounts-base": {
+      "kind": "versioned",
+      "version": "1.2.1"
+    },
+    "accounts-password": {
+      "kind": "versioned",
+      "version": "1.1.3"
+    },
+    "aldeed:simple-schema": {
+      "kind": "versioned",
+      "version": "1.3.3"
+    },
+    "aldeed:collection2": {
+      "kind": "versioned",
+      "version": "2.5.0"
+    },
+    "alanning:roles": {
+      "kind": "versioned",
+      "version": "1.2.13"
+    },
+    "launch-screen": {
+      "kind": "versioned",
+      "version": "1.0.4"
+    },
+    "webapp": {
+      "kind": "versioned",
+      "version": "1.2.2"
+    },
+    "ddp": {
+      "kind": "versioned",
+      "version": "1.2.2"
+    },
+    "livedata": {
+      "kind": "versioned",
+      "version": "1.0.15"
+    },
+    "hot-code-push": {
+      "kind": "versioned",
+      "version": "1.0.0"
+    },
+    "babel-runtime": {
+      "kind": "versioned",
+      "version": "0.1.4"
+    },
+    "promise": {
+      "kind": "versioned",
+      "version": "0.5.0"
+    },
+    "ecmascript-collections": {
+      "kind": "versioned",
+      "version": "0.1.6"
+    },
+    "blaze": {
+      "kind": "versioned",
+      "version": "2.1.3"
+    },
+    "ui": {
+      "kind": "versioned",
+      "version": "1.0.8"
+    },
+    "spacebars": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    },
+    "templating": {
+      "kind": "versioned",
+      "version": "1.1.4"
+    },
+    "browser-policy-common": {
+      "kind": "versioned",
+      "version": "1.0.4"
+    },
+    "ddp-client": {
+      "kind": "versioned",
+      "version": "1.2.1"
+    },
+    "ddp-server": {
+      "kind": "versioned",
+      "version": "1.2.1"
+    },
+    "autoupdate": {
+      "kind": "versioned",
+      "version": "1.2.3"
+    },
+    "htmljs": {
+      "kind": "versioned",
+      "version": "1.0.5"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

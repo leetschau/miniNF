@@ -1,0 +1,196 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [
+    {
+      "name": "NFCore",
+      "testOnly": false
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "standard-minifiers",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "mobile-experience",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "meteor-base",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "mongo",
+      "constraint": "1.1.2"
+    },
+    {
+      "package": "ecmascript",
+      "constraint": "0.1.5"
+    },
+    {
+      "package": "es5-shim",
+      "constraint": "4.1.13"
+    },
+    {
+      "package": "blaze-html-templates",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "session",
+      "constraint": "1.1.1"
+    },
+    {
+      "package": "jquery",
+      "constraint": "1.11.4"
+    },
+    {
+      "package": "tracker",
+      "constraint": "1.0.9"
+    },
+    {
+      "package": "underscore",
+      "constraint": "1.0.4"
+    },
+    {
+      "package": "logging",
+      "constraint": "1.0.8"
+    },
+    {
+      "package": "reload",
+      "constraint": "1.1.4"
+    },
+    {
+      "package": "random",
+      "constraint": "1.0.4"
+    },
+    {
+      "package": "ejson",
+      "constraint": "1.0.7"
+    },
+    {
+      "package": "check",
+      "constraint": "1.0.6"
+    },
+    {
+      "package": "less",
+      "constraint": "2.5.0_3"
+    },
+    {
+      "package": "http",
+      "constraint": "1.1.1"
+    },
+    {
+      "package": "reactive-var",
+      "constraint": "1.0.6"
+    },
+    {
+      "package": "email",
+      "constraint": "1.0.7"
+    },
+    {
+      "package": "browser-policy",
+      "constraint": "1.0.5"
+    },
+    {
+      "package": "service-configuration",
+      "constraint": "1.0.5"
+    },
+    {
+      "package": "amplify",
+      "constraint": "1.0.0"
+    },
+    {
+      "package": "oauth-encryption",
+      "constraint": "1.0.6"
+    },
+    {
+      "package": "accounts-base",
+      "constraint": "1.2.1"
+    },
+    {
+      "package": "accounts-password",
+      "constraint": "1.1.3"
+    },
+    {
+      "package": "aldeed:simple-schema",
+      "constraint": "1.3.3"
+    },
+    {
+      "package": "aldeed:collection2",
+      "constraint": "2.5.0"
+    },
+    {
+      "package": "alanning:roles",
+      "constraint": "1.2.13"
+    }
+  ],
+  "implies": [
+    {
+      "package": "aldeed:simple-schema",
+      "constraint": "1.3.3"
+    },
+    {
+      "package": "aldeed:collection2",
+      "constraint": "2.5.0"
+    },
+    {
+      "package": "alanning:roles",
+      "constraint": "1.2.13"
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/nfcore.js",
+      "length": 33,
+      "offset": 0,
+      "path": "nfcore.js",
+      "hash": "1882946a1aeaa1d69f8911ec179e319d0b1c0889",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/common/globals.js",
+      "length": 59,
+      "offset": 0,
+      "path": "common/globals.js",
+      "hash": "0c96d8b86a994b78ad0d64fa6e82b383d313e444",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/common/schemas/accounts.js",
+      "length": 80,
+      "offset": 0,
+      "path": "common/schemas/accounts.js",
+      "hash": "7b671976472f246c8ddb8a6ae52352412eb0368b",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/common/schemas/questions.js",
+      "length": 117,
+      "offset": 0,
+      "path": "common/schemas/questions.js",
+      "hash": "16677517900fa49a45bc6b9893b4900aa15e7e63",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/common/collections/collections.js",
+      "length": 323,
+      "offset": 0,
+      "path": "common/collections/collections.js",
+      "hash": "91424dde0264373b5363b70e69ad83fc4d11f69f",
+      "fileOptions": {}
+    }
+  ]
+}
