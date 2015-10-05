@@ -50,6 +50,8 @@ Package.onUse(function(api) {
   api.imply("aldeed:collection2@2.5.0");
   api.use("alanning:roles@1.2.13");
   api.imply("alanning:roles@1.2.13");
+  api.use('babrahams:constellation@0.1.9');
+  api.imply('babrahams:constellation@0.1.9');
 
   api.addFiles('nfcore.js');
   api.addFiles('common/globals.js');
@@ -68,6 +70,8 @@ Package.onTest(function(api) {
   api.use('velocity:html-reporter@0.9.0');
   api.use('velocity:console-reporter@0.1.3');
   api.use('leo:nfcore');
+  api.use('babrahams:constellation@0.1.9');
+
   api.addFiles('tests/accounts.js', 'server');
   api.addFiles('tests/questions.js', 'server');
 });
