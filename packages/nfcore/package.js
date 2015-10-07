@@ -58,6 +58,7 @@ Package.onUse(function(api) {
   api.addFiles('common/schemas/accounts.js');
   api.addFiles('common/schemas/questions.js');
   api.addFiles('common/collections/collections.js');
+  api.addFiles('server/methods.js');
   api.export(["NFCore"]);
 });
 
@@ -72,6 +73,5 @@ Package.onTest(function(api) {
   api.use('leo:nfcore');
   api.use('babrahams:constellation@0.1.9');
 
-  api.addFiles('tests/accounts.js', 'server');
   api.addFiles('tests/questions.js', 'server');
 });

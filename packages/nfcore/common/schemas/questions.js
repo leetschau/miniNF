@@ -4,5 +4,9 @@ NFCore.Schemas.Questions = new SimpleSchema({
   },
   content: {
     type: String
+  },
+  type: {
+    type: String,
+    allowedValues: ['Add', 'Sub', 'Multi']
   }
 });
